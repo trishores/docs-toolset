@@ -42,35 +42,35 @@ An open source toolset for editing and proofreading documents.
 
 ### Convert Markdown image syntax to Docs Markdown
 
-1. In the **Replace** tab of the UI, select the **Convert Markdown image syntax to Docs Markdown** option, and choose **Run**. You'll be prompted whether to add borders (default is `true`). 
+In the **Replace** tab of the UI, select the **Convert Markdown image syntax to Docs Markdown** option, and choose **Run**. You'll be prompted whether to add borders (default is `true`). 
 
-    ![Screenshot showing the 'Replace' tab with the update image syntax option selected in the DocsToolset UI.](./resources/screenshots/4.png)
+![Screenshot showing the 'Replace' tab with the update image syntax option selected in the DocsToolset UI.](./resources/screenshots/4.png)
 
 Here's the conversion syntax:
 
-    | **Markdown image syntax** | **Docs Markdown image syntax** |
-    |-|-|
-    | \!\[`alttext`\]\(`imgpath`\) or <br>\!\[`alttext`\]\(`imgpath` `imgtitle`\)| \:\:\:image type="content" source="`imgpath`" border="`true/false`" alt-text="`alttext`"\:\:\: |
+| **Markdown image syntax** | **Docs Markdown image syntax** |
+|-|-|
+| \!\[`alttext`\]\(`imgpath`\) or <br>\!\[`alttext`\]\(`imgpath` `imgtitle`\)| \:\:\:image type="content" source="`imgpath`" border="`true/false`" alt-text="`alttext`"\:\:\: |
 
     Image titles aren't supported by Docs Markdown and get removed.
 
 ### Convert legacy code-snippet reference syntax to Docs Markdown
 
-1. In the **Replace** tab of the UI, select the **Convert legacy code snippet reference syntax to Docs Markdown** option, and choose **Run**.
+In the **Replace** tab of the UI, select the **Convert legacy code snippet reference syntax to Docs Markdown** option, and choose **Run**.
 
-    ![Screenshot showing the 'Replace' tab with the update code-snippet syntax option selected in the DocsToolset UI.](./resources/screenshots/5.png)
+![Screenshot showing the 'Replace' tab with the update code-snippet syntax option selected in the DocsToolset UI.](./resources/screenshots/5.png)
 
 Here's the conversion syntax:
 
-    | **Legacy snippet syntax** | **Docs Markdown snippet syntax** |
-    |-|-|
-    | \[\!code-\<lang\>(\<filepath\>)] or <br>\[\!code-\<lang\>\[\<snippetname\>\](\<filepath\>)\] or <br>\[\!code-\<lang\>(\<filepath\#\<snippetid\>)\] or <br>\[\!code-\<lang\>\[\<snippetname\>\](\<filepath\>#\<snippetid\>)\] | \:\:\:code language=\"\<lang\>" source="\<filepath\>" id="<snippetid\>"\:\:\: |
+| **Legacy snippet syntax** | **Docs Markdown snippet syntax** |
+|-|-|
+| \[\!code-\<lang\>(\<filepath\>)] or <br>\[\!code-\<lang\>\[\<snippetname\>\](\<filepath\>)\] or <br>\[\!code-\<lang\>(\<filepath\#\<snippetid\>)\] or <br>\[\!code-\<lang\>\[\<snippetname\>\](\<filepath\>#\<snippetid\>)\] | \:\:\:code language=\"\<lang\>" source="\<filepath\>" id="<snippetid\>"\:\:\: |
 
 ### Replace words with their contracted form
 
-1. In the **Replace** tab of the UI, select the **Replace words with their contracted form** option, and choose **Run**.
+In the **Replace** tab of the UI, select the **Replace words with their contracted form** option, and choose **Run**.
 
-    ![Screenshot showing the 'Replace' tab with the contracted word form option selected in the DocsToolset UI.](./resources/screenshots/6.png)
+![Screenshot showing the 'Replace' tab with the contracted word form option selected in the DocsToolset UI.](./resources/screenshots/6.png)
 
 Here's the list of contracted word forms:
 
